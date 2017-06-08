@@ -2,7 +2,11 @@
 
 Have ideas for different charts, interfaces, or educational content? Please let me know! This app is very primitive.
 
-When trying it out, there will be a login screen, but doesn't work so just click login. 
+When trying it out, there will be a login screen, but doesn't work so just click login. Then, go to the charts tab on the left.
+
+https://skunkworks-a6ee7.firebaseapp.com/charts 
+
+This app uses the Neataptic JavaScript Library.
 
 # SB Admin rewritten in Angular4 and Bootstrap 4
 
