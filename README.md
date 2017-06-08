@@ -1,3 +1,9 @@
+# Neural Network Cross Validation App
+
+Have ideas for different charts, interfaces, or educational content? Please let me know! This app is very primitive.
+
+When trying it out, there will be a login screen, but doesn't work so just click login. 
+
 # SB Admin rewritten in Angular4 and Bootstrap 4
 
 Simple Dashboard Admin App built using Angular 4 and Bootstrap 4
