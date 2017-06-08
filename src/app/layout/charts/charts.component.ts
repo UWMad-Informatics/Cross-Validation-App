@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
     styleUrls: ['./charts.component.scss']
 })
 export class ChartsComponent implements OnInit {
-    private config = {
+    public config = {
         LOCV_percent: 0.8,
         num_points: 100,
         num_input_neurons: 10,
@@ -20,7 +20,7 @@ export class ChartsComponent implements OnInit {
             rate: 0.3
         }
     }
-    private file: any;
+    public file: any;
     // bar chart
     public barChartOptions: any = {
         scaleShowVerticalLines: false,
