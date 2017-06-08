@@ -2,9 +2,9 @@
 
 <label class="btn btn-primary btn-file">
     Upload CSV<input md-button type="file" id="file" style="display:none;" >
-  </label>
+</label>
 <button *ngIf="file" (click)="train()" class="btn btn-success">Train Now</button>
-
+<span *ngIf="file">Open your Dev Tools by righ clicking here and view train progress in the console tab.</span>
 <div class="row">
     <div class="col col-sm-6">
         <div class="card mb-3">
@@ -22,13 +22,13 @@
                 Line Chart
             </div>
             <div class="card-block">
-                <div id="rmse"></div>
-                <div id="tester" style="width:100%;height:400px;"></div>
+                <div id="rmse" class="align-top">Testing Data RMSE: </div>
+                <div id="tester" class="align-bottom" style="width:100%;height:400px;"></div>
             </div>
         </div>
     </div>
 </div>
-<div class="row">
+<!--<div class="row">
     <div class="col col-sm-6">
         <div class="card mb-3">
             <div class="card-header">
@@ -79,4 +79,4 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->

@@ -129,6 +129,7 @@ export class ChartsComponent implements OnInit {
     ngOnInit() {
 
         this.neatapticService.plotEmpty(document.getElementById('tester'));
+        this.neatapticService.graphEmptyHisto('myDiv');
         const input = <HTMLInputElement>(document.getElementById('file'));
 
         input.onclick = function () {
